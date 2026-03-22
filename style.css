@@ -1,0 +1,154 @@
+html {
+    background-color: #F8F7FC;
+}
+
+body {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Inter';
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    color: #A855F7;
+}
+
+.input_bar {
+    border: none;
+    height: 2.5rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color:plum;
+    padding-left: 0.7rem;
+
+    font-size: 1.2rem;
+    width: 12rem;
+}
+
+.btn {
+    height: 2.6rem;
+    width: 12rem;
+    color: white;
+    border-radius: 5px;
+    background-color: plum;
+
+    border: none;
+    font-size: 1.2rem;
+}
+
+.leaderboard {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.score_card {
+    min-width: 90%;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 24px rgba(17, 24, 39, 0.06);
+
+    border-color: #A855F7;
+    border-style: solid;
+    border-width: 0.5px;
+    border-left-width: 6px;
+    padding: 1.5rem 2rem 1.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.score_card:hover {
+    border-color: #A855F7;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+    transform: scale(1.005);
+}
+
+.score_name {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex-basis: 4rem;
+}
+
+.first_name, .time {
+    margin: 0;
+}
+
+.full_name {
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.time {
+    color: #6B7280;
+}
+
+.country {
+    flex: 1;
+    text-align: center;
+}
+
+.points {
+    color: #7E22CE;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.score_buttons {
+    display: flex;
+    gap: 1rem;
+    flex: 1;
+}
+
+.control {
+    width: 3.5rem;
+    min-height: 3.5rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1rem;
+}
+
+.plus {
+    color: #22C55E;
+    background-color: #DCFCE7;
+}
+
+.delete {
+    background-color: #FEE2E2;
+}
+
+.minus {
+    color: #F59E0B;
+    background-color: #FEF3C7;
+}
+
+.control:hover {
+    background-color: orange;
+}
+
+.btn_svg {
+    width: 50%;
+}
+
+.error_message {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    margin-top: 1rem;
+}
